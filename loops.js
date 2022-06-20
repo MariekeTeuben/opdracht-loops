@@ -20,6 +20,13 @@ for(let i = 0; i<3; i++) {
 // klaar!
  // ==========================================
 
+for(let i = 0; i<4; i++) {
+    console.log("Hoera!")
+}
+
+if (i = 5) {
+    console.log("Klaar")
+}
 
 
 // ==========================================
@@ -35,6 +42,13 @@ for(let i = 0; i<3; i++) {
 // Tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over. Google daarom eens naar 'mdn webdocs remainder operator'.
 // ==========================================
 
+for(let i = 0; i<15; i++) {
+
+if(i%2 !== .0)
+    console.log("even")
+
+else console.log("oneven")
+}
 
 
 // ==========================================
