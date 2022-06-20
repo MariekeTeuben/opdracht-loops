@@ -44,7 +44,7 @@ if (i = 5) {
 
 for(let i = 0; i<15; i++) {
 
-if(i%2 !== .0)
+if(i%2)
     console.log("even")
 
 else console.log("oneven")
