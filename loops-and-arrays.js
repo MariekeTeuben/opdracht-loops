@@ -56,6 +56,19 @@ console.log(numbers);
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
 
+// Verwachtte uitkomsten:
+// Vóór het script zie je de originele waardes:
+// console.log(squares) geeft: [30, 2, 8, 24, 11];
+// Na jouw script zie je de aangepaste waardes:
+// console.log(squares) geeft: [
+//   'Het volume van 30 is 27000',
+//   'Het volume van 2 is 8',
+//   'Het volume van 8 is 512',
+//   'Het volume van 24 is 13824',
+//   'Het volume van 11 is 1331'
+// ]
+
+
 const squares = [30, 2, 8, 24, 11];
 console.log(squares);
 
@@ -68,14 +81,4 @@ for(let i = 0; i < squares.length; i++) {
 
 console.log(squares);
 
-// Verwachtte uitkomsten:
-// Vóór het script zie je de originele waardes:
-// console.log(squares) geeft: [30, 2, 8, 24, 11];
-// Na jouw script zie je de aangepaste waardes:
-// console.log(squares) geeft: [
-//   'Het volume van 30 is 27000',
-//   'Het volume van 2 is 8',
-//   'Het volume van 8 is 512',
-//   'Het volume van 24 is 13824',
-//   'Het volume van 11 is 1331'
-// ]
+
