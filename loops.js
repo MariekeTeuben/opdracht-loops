@@ -20,11 +20,11 @@ for(let i = 0; i<3; i++) {
 // klaar!
  // ==========================================
 
-for(let i = 0; i<4; i++) {
+for(let i = 0; i < 4; i++) {
     console.log("Hoera!")
 }
 
-if (i = 5) {
+if (i=5) {
     console.log("Klaar")
 }
 
